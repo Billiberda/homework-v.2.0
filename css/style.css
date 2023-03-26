@@ -1,0 +1,512 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,700);
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+li,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 16px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 37px;
+}
+
+.menu-item a {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.menu-item a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 12px 24px;
+    background: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.hover-btn:hover {
+    color: #000000;
+    background: #DFDFDF;
+    cursor: pointer;
+}
+
+/* Перша секція */
+
+.bg-black {
+    max-width: 610px;
+    background: #000000;
+    padding: 173px 112px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.16667px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 48px;
+}
+
+a {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.create-link {
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.create-link::after {
+    content: url(../img/arrow.svg);
+    position: absolute;
+    top: 1px;
+    left: 126px;
+}
+
+.create-link:hover {
+    text-decoration: underline;
+}
+
+.create-img {
+    width: 830px;
+    height: 650px;
+    background: url(../img/create.jpg) center / cover no-repeat;
+}
+
+/* Кінець першої секції */
+
+/* Друга секція */
+
+.stories {
+    max-width: 610px;
+    padding: 136px 112px;
+}
+
+.dark {
+    color: #000000;
+}
+
+.gray {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.stories-link {
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.stories-link::after {
+    content: url(../img/black-arrow.svg);
+    position: absolute;
+    top: 1px;
+    right: -68px;
+}
+
+.stories-link:hover {
+    text-decoration: underline;
+}
+
+.stories-img {
+    width: 830px;
+    height: 610px;
+    background: url(../img/stories.jpg) center / cover no-repeat;
+}
+
+/* Кінець другої секції */
+
+/* Третя секція */
+
+.designed {
+    max-width: 610px;
+    padding: 160px 112px;
+}
+
+.designed-img {
+    width: 830px;
+    height: 610px;
+    background: url(../img/designed.jpg) center / cover no-repeat;
+}
+
+/* Кінець третьої секції */
+
+/* Четверта секція */
+
+.four-stories {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 360px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 40px 40px 40px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-24px);
+}
+
+.mountains {
+    background: url(../img/cards/montains.png) center / cover no-repeat;
+}
+
+.cityscapes {
+    background: url(../img/cards/cityscapes.png) center / cover no-repeat;
+}
+
+.voyage {
+    background: url(../img/cards/daysvoyage.png) center / cover no-repeat;
+}
+
+.architecturals {
+    background: url(../img/cards/architecturals.png) center / cover no-repeat;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.fotograph-name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    margin-bottom: 20px;
+}
+
+.card-link {
+    position: relative;
+}
+
+.card-link::after {
+    content: url(../img/arrow.svg);
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.colored-line {
+    width: 360px;
+    height: 6px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.card:hover .colored-line {
+    opacity: 1;
+}
+
+/* Кінець четвертої секції */
+
+/* П'ята секція */
+
+.features {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature {
+   max-width: 350px; 
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.feature-paragraph {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.limit-img {
+    width: 72px;
+    height: 72px;
+    background: url(../img/icon/no-photo.png) center / auto no-repeat;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.responsive-img {
+    width: 72px;
+    height: 72px;
+    background: url(../img/icon/responsive.png) center / auto no-repeat;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.available-img {
+    width: 72px;
+    height: 72px;
+    background: url(../img/icon/embed.png) center / auto no-repeat;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+/* Кінець п'ятої секції */
+
+/* Футер */
+
+.black {
+    padding: 64px 0;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.social-nav {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/facebook.svg) center / auto no-repeat;
+}
+.youtube {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/youtube.svg) center / auto no-repeat;
+}
+.twitter {
+    width: 20px;
+    height: 16px;
+    background: url(../img/icon/twitter.svg) center / auto no-repeat;
+}
+.pinterest {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/pinterest.svg) center / auto no-repeat;
+}
+.instragram {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/instragram.svg) center / auto no-repeat;
+}
+
+.facebook:hover {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/facebook-color.svg) center / auto no-repeat;
+    cursor: pointer;
+}
+.youtube:hover {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/youtube-color.svg) center / auto no-repeat;
+    cursor: pointer;
+}
+.twitter:hover {
+    width: 20px;
+    height: 16px;
+    background: url(../img/icon/twitter-color.svg) center / auto no-repeat;
+    cursor: pointer;
+}
+.pinterest:hover {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/pinterest-color.svg) center / auto no-repeat;
+    cursor: pointer;
+}
+.instragram:hover {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/instragram-color.svg) center / auto no-repeat;
+    cursor: pointer;
+}
+
+.colum {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-self: flex-start;
+}
+
+.logo-social-menu {
+    display: flex;
+    gap: 109px;
+}
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-link {
+    position: relative;
+    align-self: flex-end;
+    padding-right: 58px;
+}
+
+.footer-link::after {
+    content: url(../img/arrow.svg);
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.menu-footer-item:hover {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Кінець футер */
+
+@media (max-width: 1000px) {
+    .four-stories {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .card {
+        width: 380px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+        gap: 80px;
+        padding: 120px 0 105px 0;
+    }
+
+    .feature {
+        max-width: 457px;
+    }
+    
+    .limit-img {
+        background: url(../img/icon/no-photo.png) top / auto no-repeat;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 375px;
+        height: 375px;
+        padding: 0 32px 40px 33px;
+    }
+
+    .features {
+        gap: 56px;
+        padding: 80px 0 18px 0;
+    }
+
+    .feature {
+        max-width: 310px;
+    }
+}
